@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Speaker Telop｜After Effects 話者別テロップ自動配置スクリプト（SRT字幕を一括で）</title>
+<meta name="description" content="字幕ファイル（SRT）を読み込むだけで、話者ごとに色・位置・アイコンを変えたテロップをAfter Effectsに一括配置するスクリプト。対談・ゲーム実況・切り抜き動画の字幕入れに。禁則処理つき自動改行。Windows版、1,980円。">
+<meta name="keywords" content="After Effects,AE,テロップ,字幕,SRT,話者,自動配置,切り抜き,ゲーム実況,スクリプト">
+<link rel="canonical" href="https://tkobayashibewitch-bit.github.io/speaker-telop/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TKB テロップ工房">
+<meta property="og:title" content="Speaker Telop｜After Effects 話者別テロップ自動配置スクリプト（SRT字幕を一括で）">
+<meta property="og:description" content="字幕ファイル（SRT）を読み込むだけで、話者ごとに色・位置・アイコンを変えたテロップをAfter Effectsに一括配置するスクリプト。対談・ゲーム実況・切り抜き動画の字幕入れに。禁則処理つき自動改行。Windows版、1,980円。">
+<meta property="og:url" content="https://tkobayashibewitch-bit.github.io/speaker-telop/">
+<meta property="og:image" content="https://tkobayashibewitch-bit.github.io/speaker-telop/img/01.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=M+PLUS+Rounded+1c:wght@800&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "Speaker Telop",
+ "applicationCategory": "MultimediaApplication",
+ "operatingSystem": "Windows 10, Windows 11",
+ "description": "字幕ファイル（SRT）を読み込むだけで、話者ごとに色・位置・アイコンを変えたテロップをAfter Effectsに一括配置するスクリプト。対談・ゲーム実況・切り抜き動画の字幕入れに。禁則処理つき自動改行。Windows版、1,980円。",
+ "image": [
+  "https://tkobayashibewitch-bit.github.io/speaker-telop/img/01.jpg",
+  "https://tkobayashibewitch-bit.github.io/speaker-telop/img/02.jpg",
+  "https://tkobayashibewitch-bit.github.io/speaker-telop/img/03.jpg"
+ ],
+ "url": "https://tkobayashibewitch-bit.github.io/speaker-telop/",
+ "softwareVersion": "1.0",
+ "publisher": {
+  "@type": "Organization",
+  "name": "TKB テロップ工房",
+  "url": "https://tkobayashibewitch-bit.github.io/"
+ },
+ "offers": {
+  "@type": "Offer",
+  "price": "1980",
+  "priceCurrency": "JPY",
+  "availability": "https://schema.org/InStock",
+  "url": "https://tkbtelop.booth.pm/items/9182695"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "TKB テロップ工房",
+   "item": "https://tkobayashibewitch-bit.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Speaker Telop",
+   "item": "https://tkobayashibewitch-bit.github.io/speaker-telop/"
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "どんなSRTでも使えますか？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "UTF-8 と Shift_JIS の SRT に対応しています。各字幕の先頭に話者名を書いておくと自動で見分けます。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Caption Styler がなくても使えますか？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "使えます。AE標準の機能だけでフチ・影・座布団を作ります。Caption Styler があれば多重フチを自動で適用します。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Macでも使えますか？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Macは動作未確認です。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "作った動画を商用利用できますか？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "はい。YouTubeの収益化動画や受託案件にも使えます。"
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ "name": "TKB テロップ工房",
+ "url": "https://tkobayashibewitch-bit.github.io/",
+ "sameAs": [
+  "https://tkbtelop.booth.pm/"
+ ]
+}
+</script>
+</head>
+<body>
+<nav class="topnav"><div class="wrap"><a class="logo" href="/">TKB テロップ工房</a><div class="links"><a href="/">トップ</a><a href="/caption-styler/">Caption Styler</a><a href="/speaker-telop/" aria-current="page">Speaker Telop</a><a href="/kakijun-motion/">Kakijun Motion</a></div></div></nav>
+<header class="hero"><div class="wrap">
+<p class="brand">After Effects 用スクリプトパネル</p>
+<h1><span class="pname">Speaker Telop</span>SRTを読み込んで、話者ごとのテロップを一括で並べる。</h1>
+<p class="lead">Speaker Telop は、字幕ファイル（SRT）を読み込んで、<strong>話者ごとに色・位置・アイコンを変えたテロップ</strong>を After Effects に一括で並べるスクリプトパネルです。対談、ゲーム実況、切り抜き動画の「この人はピンクで左下、この人は青で右下」を、1本ずつ手で置く必要はもうありません。</p>
+<img class="heroimg" src="/speaker-telop/img/01.jpg" alt="話者別テロップの見本" width="1200" height="1200">
+<div class="cta-row"><a class="btn" href="https://tkbtelop.booth.pm/items/9182695" rel="noopener">BOOTHで購入する</a><span class="price-tag">1,980円（税込）・Windows版</span></div>
+</div></header>
+<main>
+<section><div class="wrap"><h2>切り抜きや対談の字幕、1本ずつ置いていませんか</h2><p class="text">Vrew などで文字起こしした字幕を AE に持っていくと、話者ごとに色や位置を変える作業が残ります。Speaker Telop なら、話者ごとの見た目を一度決めておけば、あとは「テロップを生成」を押すだけです。設定は保存されるので、次の動画でもそのまま使えます。</p></div></section>
+<section><div class="wrap"><h2>できること</h2><div class="feat"><div><h3>話者を自動で見分ける</h3><p>「[田中] こんにちは」「田中：こんにちは」「【田中】」「（田中）」などの書き方から話者を判定します。</p></div><div><h3>話者ごとの見た目</h3><p>文字色、縁取り2重、影、座布団、位置（6か所）、文字サイズ、フォント、アイコン画像を話者ごとに設定できます。</p></div><div><h3>読みやすい自動改行</h3><p>日本語の禁則処理つきで、句読点や助詞の後ろで改行します。2行になるときは行の長さをそろえます。</p></div><div><h3>あとから直せる</h3><p>アイコンと座布団は文字の長さに追従します。Ctrl+Z 1回で生成したものをまとめて取り消せます。UTF-8 / Shift_JIS の SRT に対応。</p></div></div></div></section>
+<section><div class="wrap"><h2>画面イメージ</h2><div class="gallery"><figure><img src="/speaker-telop/img/01.jpg" alt="話者別テロップの見本" width="1200" height="1200" loading="lazy"><figcaption>話者別テロップの見本</figcaption></figure><figure><img src="/speaker-telop/img/02.jpg" alt="使い方の流れ" width="1200" height="1200" loading="lazy"><figcaption>使い方の流れ</figcaption></figure><figure><img src="/speaker-telop/img/03.jpg" alt="禁則処理つき自動改行の例" width="1200" height="1200" loading="lazy"><figcaption>禁則処理つき自動改行の例</figcaption></figure></div></div></section>
+<section><div class="wrap"><h2>動作環境</h2><div class="tbl"><table><tr><th>対応ソフト</th><td>Adobe After Effects（Windows版）。動作確認：After Effects 2026</td></tr><tr><th>OS</th><td>Windows 10 / 11。Macは動作未確認</td></tr><tr><th>連携</th><td>Caption Styler が入っていれば、多重フチ・影・座布団を Caption Styler で自動適用</td></tr><tr><th>内容物</th><td>SpeakerTelop.jsxbin、サンプル（SRT・アイコン画像）、はじめにお読みください.txt、利用規約.txt</td></tr></table></div></div></section>
+<section><div class="wrap"><h2>導入と使い方</h2><ol class="steps"><li><code>SpeakerTelop.jsxbin</code> を <code>C:\Program Files\Adobe\Adobe After Effects （バージョン）\Support Files\Scripts\ScriptUI Panels\</code> にコピーします。</li><li>After Effects を起動し、「ウィンドウ」→「SpeakerTelop.jsxbin」でパネルを開きます。</li><li>「SRTを読み込む…」で字幕ファイルを選び、話者ごとの色や位置を決めます。</li><li>「テロップを生成」を押します。</li></ol></div></section>
+<section><div class="wrap"><h2>購入</h2><div class="buy"><span class="yen">1,980円</span><p>税込・買い切り。購入者ご本人のPC 2台まで。作った動画は商用利用OKです。</p><a class="btn" href="https://tkbtelop.booth.pm/items/9182695" rel="noopener">BOOTHで購入する</a></div><p class="setnote">Caption Styler と Speaker Telop の<a href="https://tkbtelop.booth.pm/items/9182700" rel="noopener">セット（3,480円）</a>もあります。一緒に使うと、話者別テロップに多重フチを自動で付けられます。</p></div></section>
+<section><div class="wrap"><h2>よくある質問</h2><div><details><summary>どんなSRTでも使えますか？</summary><p>UTF-8 と Shift_JIS の SRT に対応しています。各字幕の先頭に話者名を書いておくと自動で見分けます。</p></details><details><summary>Caption Styler がなくても使えますか？</summary><p>使えます。AE標準の機能だけでフチ・影・座布団を作ります。Caption Styler があれば多重フチを自動で適用します。</p></details><details><summary>Macでも使えますか？</summary><p>Macは動作未確認です。</p></details><details><summary>作った動画を商用利用できますか？</summary><p>はい。YouTubeの収益化動画や受託案件にも使えます。</p></details></div></div></section>
+<section><div class="wrap"><h2>ほかの製品</h2><div class="cards"><a class="card" href="/caption-styler/"><strong>Caption Styler</strong><span>テキストレイヤー1枚に、最大3重のフチ・影・角丸の座布団をまとめて付けるエフェクト。</span></a><a class="card" href="/kakijun-motion/"><strong>Kakijun Motion</strong><span>文字を入力するだけで、漢字・ひらがな・カタカナが書き順どおりに1画ずつ描かれるアニメを作るスクリプト。</span></a></div></div></section>
+</main>
+<footer><div class="wrap">
+<p>販売：<a href="https://tkbtelop.booth.pm/" rel="noopener">TKB テロップ工房（BOOTH）</a>。お問い合わせはBOOTHのショップページの「メッセージを送る」からどうぞ。</p>
+<p>After Effects は Adobe の商標です。本製品は Adobe が提供・保証するものではありません。</p>
+<p>© 2026 TKB テロップ工房</p>
+</div></footer>
+</body>
+</html>
